@@ -58,28 +58,32 @@ class CompanyDetailsBottomSheet extends StatelessWidget {
           ),
           const SizedBox(height: 20),
           GestureDetector(
-            onTap: (company.isApplied ?? false) ? null : () {
-              homeController.applyJob(company.id);
-              Get.back();
-              Get.snackbar(
-                'Success',
-                'Job Applied Successfully',
-                snackPosition: SnackPosition.BOTTOM,
-                backgroundColor: Colors.green,
-                colorText: Colors.white,
-              );
-            },
+            onTap: (company.isApplied ?? false)
+                ? null
+                : () {
+                    homeController.applyJob(company.id);
+                    Get.back();
+                    Get.snackbar(
+                      'Success',
+                      'Job Applied Successfully',
+                      snackPosition: SnackPosition.BOTTOM,
+                      backgroundColor: Colors.green,
+                      colorText: Colors.white,
+                    );
+                  },
             child: Container(
               width: double.infinity,
               height: 40,
               decoration: BoxDecoration(
-                color: (company.isApplied ?? false) ? Colors.grey : Colors.blueAccent,
+                color: (company.isApplied ?? false)
+                    ? Colors.grey
+                    : Colors.blueAccent,
                 borderRadius: BorderRadius.circular(5),
               ),
-              child:  Center(
+              child: Center(
                 child: Text(
                   (company.isApplied ?? false) ? 'APPLIED' : 'APPLY NOW',
-                  style: TextStyle(
+                  style: const TextStyle(
                     color: Colors.white,
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
