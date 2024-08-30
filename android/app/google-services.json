@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "310913809655",
+    "project_id": "jobportal-fba7a",
+    "storage_bucket": "jobportal-fba7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310913809655:android:3257c312e88736752ae7f2",
+        "android_client_info": {
+          "package_name": "com.example.job_portal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310913809655-mdnbkjdfj769cci86hi4uo33u7e44tt3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5trjkL0PPxQxo8HPO_wVN69b4oT0H-mY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310913809655-mdnbkjdfj769cci86hi4uo33u7e44tt3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "310913809655-nfcv6og3j5uca9i8g8h0uir2tcrtntjg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.jobPortal"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310913809655:android:7bce6bf45e17802b2ae7f2",
+        "android_client_info": {
+          "package_name": "com.jobportal.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310913809655-jkpp0h1tdfar6mglahns796cf6ikgpp4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jobportal.app",
+            "certificate_hash": "6dbda62bd7162ad48e7179b026f6dde1cfc10bb3"
+          }
+        },
+        {
+          "client_id": "310913809655-mdnbkjdfj769cci86hi4uo33u7e44tt3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5trjkL0PPxQxo8HPO_wVN69b4oT0H-mY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310913809655-mdnbkjdfj769cci86hi4uo33u7e44tt3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "310913809655-nfcv6og3j5uca9i8g8h0uir2tcrtntjg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.jobPortal"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
